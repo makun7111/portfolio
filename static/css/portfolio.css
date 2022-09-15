@@ -44,6 +44,7 @@ body{
 }
 .introduce{
     float:left;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-weight:bold;
     font-size:20px;
 }
