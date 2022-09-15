@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-image:url(https://blog-imgs-134.fc2.com/a/m/i/aminyan123/7B6E681A-075C-43DB-B395-0582A453BE9B.jpeg);
+  height:475px;
+  background-size:cover;
+  margin: 0;
+  padding: 0;
+  font-size:0;
+}
+.title{
+  font-size:140px;
+  font-family:'Caveat';
+  text-align:center;
+  color:#000080;
+}
+
+.sub{
+  font-size:80px;
+  font-family:'Caveat';
+  margin-left:20px;
+  line-height:20px;
+  color:#000080;
+}
+.content{
+  height:2000px;
+  background-color:#e0ffff;
+  margin: 0;
+  padding: 0;
+}
+.title2{
+    text-align:center;
+    font-size:65px;
+    margin-top:0;
+    font-family: 'Amatic SC', cursive;
+}
+.img-my{
+    clip-path: circle(40%);
+}
+.introduce{
+    float:left;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:20px;
+}
