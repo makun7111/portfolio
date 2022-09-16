@@ -4,6 +4,7 @@
 body{
   margin: 0;
   padding: 0;
+  position:absolute;
 }
 .header{
   background-image:url(https://blog-imgs-134.fc2.com/a/m/i/aminyan123/7B6E681A-075C-43DB-B395-0582A453BE9B.jpeg);
@@ -47,4 +48,18 @@ body{
     font-family: 'Amatic SC', cursive;
     font-weight:bold;
     font-size:20px;
+    margin-left:5%;
+}
+.skill{
+  padding-top:30px;
+  font-size:70px;
+  font-family:'Caveat';
+  text-align:center;
+  clear:both;
+}
+.skill-title{
+  font-family: 'Amatic SC', cursive;
+  float:left;
+  font-size:50px;
+  margin: 30px 400px;
 }
