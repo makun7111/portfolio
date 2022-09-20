@@ -35,7 +35,7 @@ body{
   color:white;
 }
 .content{
-  height:3200px;
+  height:3300px;
   background-color:#f5f5f5;
   margin: 0;
   padding: 0;
@@ -160,7 +160,7 @@ height:50px;
 color:darkslategrey;
 font-size:30px;
 text-align:center;
-font-family:'Mv Boli';
+font-family:'Amatic SC', cursive;
 }
 
 
