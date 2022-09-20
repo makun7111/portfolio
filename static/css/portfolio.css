@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap')
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@font-face {
+font-family: 'japanese';
+src: url('..fonts/07LogoTypeGothic7.ttf') format('truetype');
+}
 body{
   margin: 0;
   padding: 0;
@@ -55,7 +59,7 @@ body{
     margin-top:5%;
 }
 .introduce-sentence{
-    font-family: 'Amatic SC', cursive;
+    font-family:'japanese';
     font-size:20px;
     margin-left:25%;
     height:auto;
@@ -78,7 +82,7 @@ body{
 table th{
 padding:1% 5%;
 font-family:‘M PLUS Rounded 1c’;
-font-size:60px;
+font-size:30px;
 text-align:center;
 background:white;
 }
@@ -86,10 +90,12 @@ table td{
 padding:2% 5%;
 font-family:‘M PLUS Rounded 1c’;
 background:white;
+font-size:26px;
 }
 table{
-width:90%;
-padding:0 0 0 10%;
+width:80%;
+height:17%;
+padding:0 0 0 19%;
 font-family:‘M PLUS Rounded 1c’;
 }
 
@@ -103,9 +109,13 @@ width:40%;
 font-size:30px;
 }
 .work-img{
-    padding:5% 2% 5% 18%;
-    width:70%;
-    height:10%;
+    padding:5% 2% 5% 13%;
+    width:80%;
+    height:11%;
+    border-radius:40% 80% 35% 65% / 50% 50% 70% 40%;
+}
+.work-img2{
+    border-radius:40% 80% 35% 65% / 50% 30% 50% 40%;
 }
 .work-title{
     text-align:center;
@@ -118,12 +128,12 @@ font-size:30px;
 }
 .work-explain{
    font-family:‘M PLUS Rounded 1c’;
-    font-size:35px;
+    font-size:24px;
     padding:0 0 5% 0;
     width:40%;
 }
 .works{
-font-size:38px;
+font-size:30px;
 }
 .my-link{
     float:right;
@@ -142,6 +152,8 @@ text-decoration: none;
 color:#191970;
 }
 .footer{
+position:relative;
+bottom:0;
 width:100%;
 background-color:darkgrey;
 height:50px;
