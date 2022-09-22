@@ -56,7 +56,7 @@ body{
     width:20%;
     height:12%;
     float:left;
-    margin-top:5%;
+    margin-top:2%;
 }
 .introduce-sentence{
     font-family:'japanese';
@@ -68,7 +68,7 @@ body{
     font-weight:bold;
 }
 .skill{
-  padding-top:23%;
+  padding-top:20%;
   width:100%;
   height:auto;
   float：left;
@@ -112,10 +112,10 @@ font-size:30px;
     padding:5% 2% 5% 13%;
     width:80%;
     height:11%;
-    border-radius:40% 80% 35% 65% / 50% 50% 70% 40%;
+    border-radius:60%;
 }
 .work-img2{
-    border-radius:40% 80% 35% 65% / 50% 30% 50% 40%;
+    border-radius:60%;
 }
 .work-title{
     text-align:center;
