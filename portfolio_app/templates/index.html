@@ -23,7 +23,6 @@
             <li class="my-link"><a href="#WORKS">WORKS</a></li>
         <li class="my-link"><a href="#SKILL">SKILL</a></li>
         <li class="my-link"><a href="#PROFILE">PROFILE</a></li>
-        <li class="my-link"></li>
         </ul>
     </div>
     <div class="profile">
@@ -33,11 +32,11 @@
                 <img class="img-my" src="{% static 'img/my.jpg' %}">
             </div>
             <div class="introduce-sentence">
-                初めまして。私は平成１４年生まれの大学生のまうです。現在学部二年生です。<br>
-                将来的にWEBエンジニアになるという夢をかなえるために現在独学で勉強を進めております。<br>
-                目指すきっかけとなったのは学部一年生における授業で学んだC言語でした。そこでエラーが発生しては<br>
-                それを直していくという地道な作業の中にある達成感に惹かれ、そこから少しずつ勉強を始めました。<br>
-                アプリを作れるうえに、実験データを解析するときにも有用だと思い、現在は主にpythonを学んでいます。
+                <span>初めまして。</span><span>私は</span><span>平成１４年</span><span>生まれの</span><span>大学生の</span><span>まうです。</span><span>現在</span><span>学部二年生</span><span>です。</span>
+                <span>将来的に</span><span>WEB</span><span>エンジニア</span><span>になる</span><span>という</span><span>夢を</span><span>かなえるために</span><span>現在独学で</span><span>勉強を</span><span>進めて</span><span>おります。</span>
+                <span>目指す</span><span>きっかけ</span><span>となったのは</span><span>学部一年生</span><span>における</span><span>授業で</span><span>学んだ</span><span>C言語</span><span>でした。</span><span>そこで</span><span>エラーが</span><span>発生</span><span>しては</span>
+                <span>それを</span><span>直して</span><span>いく</span><span>という</span><span>地道な</span><span>作業の</span><span>中に</span><span>ある</span><span>達成感に</span><span>惹かれ、</span><span>そこから</span><span>少しずつ</span><span>勉強を</span><span>始めました。</span>
+                    <span>アプリを</span><span>作る</span><span>こと</span><span>ができる</span><span>うえに、</span><span>実験データを</span><span>解析</span><span>するとき</span><span>にも</span><span>有用</span><span>だと思い、</span><span>現在は</span><span>主に</span><span>pythonを</span><span>学んで</span><span>います。</span>
             </div>
         </div>
 
@@ -49,51 +48,55 @@
                 <th>言語</th><th>経験</th>
             </tr>
             <tr class="skill-table">
-                <td class="language">python</td><td class="experience">書籍で大まかな文法を学び、Djangoを用いたアプリ開発で利用しました。</td>
+                <td class="language">python</td><td class="experience"></span><span>書籍で</span><span>大まかな</span><span>文法を</span><span>学び、</span><span>Djangoを</span><span>用いた</span><span>アプリ</span><span>開発で</span><span>利用</span><span>しました。</span></td>
             </tr>
             <tr class="skill-table">
-                <td class="language">HTML&CSS</td><td class="experience">プログラミングの学習サイトを用いて<br>学び、このポートフォリオサイトなどで利用しました。</td>
+                <td class="language">HTML&CSS</td><td class="experience"><span>プログラミングの</span><span>学習</span><span>サイト</span><span>を用いて</span><span>学び、</span><span>この</span><span>ポートフォリオ</span><span>サイト</span><span>などで</span><span>利用</span><span>しました。</span></td>
             </tr>
             <tr class="skill-table">
-                <td class="language">C言語</td><td class="experience">大学の授業で学びました。<br>主にデータの分析に用いました。</td>
+                <td class="language">C言語</td><td class="experience"><span>大学の</span><span>授業で</span><span>学びました。</span><span>主に</span><span>データの</span><span>分析に</span><span>用い</span><span>ました。</span></td>
             </tr>
             <tr class="skill-table">
                 <th>その他</th><th>経験</th>
             </tr>
             <tr class="skill-table">
-                <td class="language">Django</td><td class="experience">Djangoを用いてアプリを<br>作成、ネットに公開しました。</td>
+                <td class="language">Django</td><td class="experience"><span>Djangoを</span><span>用いて</span><span>アプリを</span><span>作成、</span><span>ネットに</span><span>公開</span><span>しました。</span></td>
             </tr>
             <tr class="skill-table">
-                <td class="language">Git</td><td class="experience">このポートフォリオサイト、Djangoを用いたアプリを作成するときに利用しました。</td>
+                <td class="language">Git</td><td class="experience"><span>この</span><span>ポートフォリオ</span><span>サイト、</span><span>Djangoを</span><span>用いた</span><span>アプリを</span><span>作成</span><span>するときに</span><span>利用</span><span>しました。</span></td>
             </tr>
         </table>
     </div>
 <div class="work">
     <h1 class="work-title" id="WORKS">WORKS</h1>
+    <div>
     <div class="work-content">
         <a href="https://private.study-report-management.com/">
             <img src="{% static 'img/diary.png' %}" class="work-img">
         </a>
     </div>
-    <div class="work-content work-explain">
+    <div class="work-explain">
         <a href="https://private.study-report-management.com/">
         <h1 class="works">勉強成果記録アプリ</h1>
         </a>
-        書籍を参考にして一人で作成しました。もともとは日記作成アプリ<br>でしたが、自分が日記を書くことに興味がないため勉強の記録アプリに作り変えました。作成する過程で多くのエラーが出て、解決に一日以上かかることもありとても苦労しました。ログイン機能を導入し、個人で記録できるところがこのアプリの特徴です。pythonとその<br>フレームワークであるDjangoを用いて作り、それをAWSをもちいてデプロイしました。ソースコードは以下のリンクのGithubにあります。
+        <span>書籍を</span><span>参考にして</span><span>一人で</span><span>作成</span><span>しました。</span><span>もともとは</span><span>日記作成</span><span>アプリ</span><span>でしたが、</span><span>自分が</span><span>日記を</span><span>書くことに</span><span>興味が</span><span>ないため</span><span>勉強の</span><span>記録</span><span>アプリに</span><span>作り</span><span>変えました。</span><span>作成</span><span>する</span><span>過程で</span><span>多くの</span><span>エラー</span><span>が出て、</span><span>解決に</span><span>一日以上</span><span>かかることもあり</span><span>とても苦労</span><span>しました。</span><span>ログイン</span><span>機能を</span><span>導入し、</span><span>個人で</span><span>記録</span><span>できる</span><span>ところが</span><span>このアプリの</span><span>特徴です。</span><span>pythonと</span><span>その</span><span>フレームワーク</span><span>である</span><span>Djangoを</span><span>用いて作り、</span><span>それを</span><span>AWSを</span><span>用いて</span><span>デプロイ</span><span>しました。</span><span>ソースコードは</span><span>以下の</span><span>リンクの</span><span>Github</span><span>にあります。</span>
         <a href="https://github.com/makun7111/private_diary">GitHubのリンク</a>
     </div>
+    </div>
+    <div>
     <div class="work-content">
         <a href="https://portfolio.syudy-time-management.com/">
-            <img src="{% static 'img/portfolio.png' %}" class="work-img work-img2">
+            <img src="{% static 'img/portfolio.png' %}" class="work-img work-img">
         </a>
     </div>
-    <div class="work-content work-explain">
+    <div class="work-explain">
         <a href="https://portfolio.syudy-time-management.com/">
         <h1 class="works">ポートフォリオ</h1>
         </a>
-        自分のプロフィールや作った作品を紹介するために作りました。こちらも勉強成果記録アプリと同様にDjangoを用いて作り、AWSで<br>デプロイしました。HTML＆CSSが自分の思い通りに動いてくれずに<br>苦労しましたが何とか形にすることができました。ソースコードは<br>以下のリンクのGithubにあります。<br>
+        <span>自分の</span><span>プロフィールや</span><span>作った</span><span>作品を</span><span>紹介</span><span>する</span><span>ために</span><span>作りました。</span><span>こちらも</span><span>勉強成果記録</span><span>アプリと</span><span>同様に</span><span>Djangoを</span><span>用いて</span><span>作り、</span><span>AWSで</span><span>デプロイ</span><span>しました。</span><span>HTML＆CSS</span><span>が自分の</span><span>思い通り</span><span>に動いて</span><span>くれずに</span><span>苦労</span><span>しましたが</span><span>何とか</span><span>形に</span><span>することが</span><span>できました。</span><span>ソースコードは</span><span>以下の</span><span>リンクの</span><span>Github</span><span>にあります。</span>
 
         <a href="https://github.com/makun7111/portfolio">GitHubのリンク</a>
+    </div>
     </div>
 </div>
 
