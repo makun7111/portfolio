@@ -54,8 +54,8 @@ body{
 }
 .img-my{
     clip-path: circle(40%);
-    width:20%;
-    height:12%;
+    width:350px;
+    height:350px;
     float:left;
     margin-top:2%;
 }
