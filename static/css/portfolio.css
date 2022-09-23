@@ -172,6 +172,9 @@ font-family:'Amatic SC', cursive;
 span {
 display:inline-block;
 }
+body{
+-webkit-text-size-adjust: none;
+}
 
 
 
